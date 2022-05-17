@@ -1,5 +1,5 @@
 //
-//  SerachVCViewController.swift
+//  FavouritesVC.swift
 //  GitHubFollowers
 //
 //  Created by antonfrolov on 17.05.2022.
@@ -7,11 +7,12 @@
 
 import UIKit
 
-class SerachVC: UIViewController {
+class FavouritesVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        view.backgroundColor = .yellow
 
-        // Do any additional setup after loading the view.
     }
 }
